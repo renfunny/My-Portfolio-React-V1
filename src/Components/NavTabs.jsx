@@ -9,7 +9,10 @@ function NavTabs({ currentPage, handlePageChange }) {
         <li className="logo">
           <a href="#" className="nav-link">
             <span className="link-text logo-text">Renato Cordova</span>
-            <FontAwesomeIcon icon={solid("sun")} className="logo-icon" />
+            <FontAwesomeIcon
+              icon={solid("sun")}
+              className="link-icon logo-icon"
+            />
           </a>
         </li>
         <li className="nav-item">
