@@ -1,0 +1,24 @@
+footer {
+  text-align: center;
+  margin-left: 5rem;
+  padding: 1rem;
+  margin-top: auto;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 2rem 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 3rem;
+  font-size: 2rem;
+}
+footer ul a {
+  color: #b6b6b6;
+  text-decoration: none;
+}
+footer ul a:hover {
+  color: rgb(245, 190, 41);
+}
