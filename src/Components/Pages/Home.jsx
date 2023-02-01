@@ -14,7 +14,10 @@ export default function Home() {
             <FontAwesomeIcon icon={brands("github")} />
           </a>
           <a href="">
-            <img src="" alt="" />
+            <img
+              src="../../images/GitUp-Screenshot.png"
+              alt="GitUp Screenshot"
+            />
           </a>
         </article>
 

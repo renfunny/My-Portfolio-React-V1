@@ -4,6 +4,9 @@ footer {
   padding: 1rem;
   margin-top: auto;
 }
+h2 {
+  color: #b6b6b6;
+}
 
 footer ul {
   list-style-type: none;
