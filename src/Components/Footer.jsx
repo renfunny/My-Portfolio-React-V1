@@ -14,13 +14,13 @@ function Footer() {
             target="_blank"
           >
             <FontAwesomeIcon icon={brands("linkedin")} />
-            <span class="sr-only">LinkedIn</span>
+            <span className="sr-only">LinkedIn</span>
           </a>
         </li>
         <li>
           <a href="https://github.com/renfunny" target="_blank">
             <FontAwesomeIcon icon={brands("github")} />
-            <span class="sr-only">GitHub</span>
+            <span className="sr-only">GitHub</span>
           </a>
         </li>
       </ul>

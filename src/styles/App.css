@@ -1,5 +1,5 @@
 :root {
-  font-size: 16px;
+  font-size: 1.5vh;
   font-family: "Open Sans";
   --text-primary: #b6b6b6;
   --text-secondary: #ececec;
@@ -15,10 +15,21 @@ body {
   padding: 0;
 }
 
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
 .navbar {
   position: fixed;
   background-color: var(--bg-primary);
   transition: width 200ms ease;
+  z-index: 2;
 }
 
 .navbar-nav {

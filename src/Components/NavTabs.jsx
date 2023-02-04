@@ -27,6 +27,18 @@ function NavTabs({ currentPage, handlePageChange }) {
         </li>
         <li className="nav-item">
           <a
+            href="#project"
+            onClick={() => handlePageChange("Project")}
+            className={
+              currentPage === "Project" ? "nav-link active" : "nav-link"
+            }
+          >
+            <FontAwesomeIcon icon={solid("briefcase")} className="link-icon" />
+            <span className="link-text">Projects</span>
+          </a>
+        </li>
+        <li className="nav-item">
+          <a
             href="#about"
             onClick={() => handlePageChange("About")}
             className={currentPage === "About" ? "nav-link active" : "nav-link"}

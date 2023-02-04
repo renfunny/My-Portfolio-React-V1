@@ -1,0 +1,39 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 15vh 0 15vh 0;
+}
+.user-box {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  font-size: 2vh;
+}
+input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  padding: 1rem 0 0.5rem 0;
+  color: white;
+  font-size: 3vh;
+}
+textarea {
+  font-size: 2vh;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+button {
+  border: none;
+  padding: 0.5rem;
+  font-size: 2vh;
+}
+button:hover {
+  background-color: rgb(245, 190, 41);
+}

@@ -1,7 +1,5 @@
 footer {
   text-align: center;
-  margin-left: 5rem;
-  padding: 1rem;
   margin-top: auto;
 }
 h2 {
@@ -17,6 +15,7 @@ footer ul {
   align-items: flex-end;
   gap: 3rem;
   font-size: 2rem;
+  padding: 0;
 }
 footer ul a {
   color: #b6b6b6;
@@ -24,4 +23,14 @@ footer ul a {
 }
 footer ul a:hover {
   color: rgb(245, 190, 41);
+}
+
+@media only screen and (max-width: 600px) {
+  footer {
+    text-align: center;
+    margin-top: auto;
+    position: absolute;
+    top: 78%;
+    left: 26%;
+  }
 }
