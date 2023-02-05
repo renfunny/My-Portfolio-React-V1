@@ -13,13 +13,13 @@ export default function Home() {
         </div>
       </div>
       <div>
-        <h2 className="intro-container">
+        <p className="intro-container">
           I'm Renato, a Fullstack Developer with a passion for learning. I have
           worked on many small scale projects, some of which are showcased here.
           I am constantly striving to learn and improve, if you wish to to make
           any suggestions or have any learning opportunities feel free to reach
           out.
-        </h2>
+        </p>
       </div>
     </main>
   );

@@ -44,7 +44,7 @@ export default function Home() {
         <Project
           bgr={styles.GitUpBgr}
           projectLink={"https://renfunny.github.io/GitUp.Now/"}
-          projectName={"GitUp.Now - Exercise Finder"}
+          projectName={"GitUp.Now"}
           projectGithub={"https://github.com/renfunny/GitUp.Now"}
         />
         <Project
