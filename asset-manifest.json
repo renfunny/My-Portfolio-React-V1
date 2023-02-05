@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/renfunny/My-React-Portfolio/static/css/main.00289e61.css",
+    "main.js": "/renfunny/My-React-Portfolio/static/js/main.27f799d9.js",
+    "static/media/GitUp-Screenshot.png": "/renfunny/My-React-Portfolio/static/media/GitUp-Screenshot.786ecaf516bf200ac8b2.png",
+    "static/media/Local-Library-Screenshot.png": "/renfunny/My-React-Portfolio/static/media/Local-Library-Screenshot.655f8082e8c92a58672f.png",
+    "static/media/Guess-my-number-screenshot.png": "/renfunny/My-React-Portfolio/static/media/Guess-my-number-screenshot.85f48c5c0f482f6b75e0.png",
+    "static/media/passwordGenerator-Screenshot.png": "/renfunny/My-React-Portfolio/static/media/passwordGenerator-Screenshot.aa25cbf89939def02f6b.png",
+    "index.html": "/renfunny/My-React-Portfolio/index.html",
+    "main.00289e61.css.map": "/renfunny/My-React-Portfolio/static/css/main.00289e61.css.map",
+    "main.27f799d9.js.map": "/renfunny/My-React-Portfolio/static/js/main.27f799d9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.00289e61.css",
+    "static/js/main.27f799d9.js"
+  ]
+}
