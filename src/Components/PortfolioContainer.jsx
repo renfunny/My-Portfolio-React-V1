@@ -4,7 +4,6 @@ import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Resume from "./Pages/Resume";
-import Background from "./Background";
 import Footer from "./Footer";
 import Project from "./Pages/Project";
 
@@ -32,7 +31,6 @@ export default function PortfolioContainer() {
   return (
     <div className="wrapper">
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-      <Background />
       {renderPage()}
       <Footer />
     </div>

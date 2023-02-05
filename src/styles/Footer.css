@@ -1,6 +1,8 @@
 footer {
   text-align: center;
   margin-top: auto;
+  border: 2px solid red;
+  margin-bottom: 5rem;
 }
 h2 {
   color: #b6b6b6;
@@ -25,7 +27,7 @@ footer ul a:hover {
   color: rgb(245, 190, 41);
 }
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   footer {
     text-align: center;
     margin-top: auto;
@@ -33,4 +35,4 @@ footer ul a:hover {
     top: 78%;
     left: 26%;
   }
-}
+} */

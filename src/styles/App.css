@@ -3,16 +3,28 @@
   font-family: "Open Sans";
   --text-primary: #b6b6b6;
   --text-secondary: #ececec;
-  --bg-primary: #23232e;
-  --bg-secondary: #141418;
+  --bg-primary: #06060e;
+  --bg-secondary: #171727;
   --transition-speed: 600ms;
 }
 
 body {
+  background: #141e30; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #243b55,
+    #141e30
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #243b55,
+    #101827
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100%;
   color: var(--text-secondary);
-  background-color: black;
   margin: 0;
   padding: 0;
+  border: 2px solid yellow;
 }
 
 #root {
@@ -20,6 +32,7 @@ body {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
+  border: 2px solid brown;
 }
 .wrapper {
   display: flex;
