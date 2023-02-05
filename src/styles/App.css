@@ -24,7 +24,6 @@ body {
   color: var(--text-secondary);
   margin: 0;
   padding: 0;
-  border: 2px solid yellow;
 }
 
 #root {
@@ -32,7 +31,6 @@ body {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  border: 2px solid brown;
 }
 .wrapper {
   display: flex;
@@ -68,7 +66,7 @@ body {
 }
 
 .nav-link:hover {
-  color: rgb(245, 190, 41);
+  color: rgb(18, 122, 170);
   background: var(--bg-secondary);
 }
 
@@ -144,5 +142,16 @@ main {
   .navbar:hover .link-text {
     display: inline;
     transition: var(--transition-speed);
+  }
+  body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  main {
+    flex: 1;
+  }
+  #root {
+    height: 100%;
   }
 }

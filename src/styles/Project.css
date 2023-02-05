@@ -39,13 +39,13 @@
 .project-text {
   z-index: 1;
   margin: 0 1rem;
-  color: rgb(245, 190, 41);
+  color: #b6b6b6;
 }
 
 .github-link {
   z-index: 1;
   font-size: 3rem;
-  color: rgb(245, 190, 41);
+  color: #b6b6b6;
   transition: font-size 0.2s ease-in-out;
 }
 
@@ -56,10 +56,19 @@
 .project-link:hover {
   font-size: 120%;
 }
-project-text:hover {
-  color: rgb(235, 162, 5);
+.project-text:hover {
+  color: rgb(18, 122, 170);
 }
 .github-link:hover {
   font-size: 4rem;
-  color: rgb(235, 162, 5);
+  color: rgb(18, 122, 170);
+}
+
+@media only screen and (min-width: 600px) {
+  .project {
+    width: 45%;
+  }
+  .project-container {
+    justify-content: space-around;
+  }
 }

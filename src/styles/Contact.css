@@ -35,5 +35,6 @@ button {
   font-size: 2vh;
 }
 button:hover {
-  background-color: rgb(245, 190, 41);
+  background-color: #06060e;
+  color: white;
 }
