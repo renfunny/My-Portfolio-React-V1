@@ -6,7 +6,7 @@ export default function Resume() {
       <h1 className="title">Resume</h1>
       <p>
         For the full resume please{" "}
-        <a href="https://docs.google.com/document/d/1MXZQQ4hTW0YqCGA961s-MfxRSACrChb-/edit?usp=sharing&ouid=106751600692304358518&rtpof=true&sd=true">
+        <a href="https://docs.google.com/document/d/1zOuVw_R5GGMZCjGyPinecK-xTl95LR4w_HkXkaNvJJU/edit?usp=sharing">
           Click Here!
         </a>
       </p>
